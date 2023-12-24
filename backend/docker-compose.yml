@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: tejas
+      POSTGRES_PASSWORD: Tejas@12
+      POSTGRES_DB: img
+    ports:
+      - "5432:5432"
